@@ -70,32 +70,33 @@
           // .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
           // .lineHoverPrecision(0)
 
-          .polygonsData(
-            countries.features.filter((d) => d.properties.ISO_A2 !== "AQ")
-          )
-          .polygonCapColor(() => "rgba(255, 6, 6, 0)") // обнуление цвета
-          // .polygonAltitude(0.06)
-          // .polygonCapColor(feat => colorScale(getVal(feat)))
-          .polygonSideColor(() => "rgba(0, 100, 0, 0)") // обнуление границ в высоту
-          .polygonStrokeColor(() => "#111")
-          .polygonLabel(
-            ({ properties: d }) => `
-          <b class='color'>${d.ADMIN} (${d.ISO_A2}):</b> <br />
-          GDP: <i class='color'>${d.GDP_MD_EST}</i> M$<br/>
-          Population: <i class='color'>${d.POP_EST}</i>
-        `
-          )
-          .onPolygonClick((e) =>
-            alert(e.properties.CONTINENT + " " + e.properties.ADMIN)
-          )
+//           .polygonsData(
+//             countries.features.filter((d) => d.properties.ISO_A2 !== "AQ")
+//           )
+//           .polygonCapColor(() => "rgba(255, 6, 6, 0)") // обнуление цвета
+//           // .polygonAltitude(0.06)
+//           // .polygonCapColor(feat => colorScale(getVal(feat)))
+//           .polygonSideColor(() => "rgba(0, 100, 0, 0)") // обнуление границ в высоту
+//           .polygonStrokeColor(() => "#111")
+//           .polygonLabel(
+//             ({ properties: d }) => `
+//           <b class='color'>${d.ADMIN} (${d.ISO_A2}):</b> <br />
+//           GDP: <i class='color'>${d.GDP_MD_EST}</i> M$<br/>
+//           Population: <i class='color'>${d.POP_EST}</i>
+//         `
+//           )
+//           .onPolygonClick((e) =>
+//             alert(e.properties.CONTINENT + " " + e.properties.ADMIN)
+//           )
 
-          .onPolygonHover((hoverD) =>
-            world
-              .polygonAltitude((d) => (d === hoverD ? 0.02 : 0.01))
-              .polygonCapColor((d) =>
-                d === hoverD ? "rgba(255, 6, 6, 0.3)" : "rgba(255, 6, 6, 0)"
-              )
-          )(
+//           .onPolygonHover((hoverD) =>
+//             world
+//               .polygonAltitude((d) => (d === hoverD ? 0.02 : 0.01))
+//               .polygonCapColor((d) =>
+//                 d === hoverD ? "rgba(255, 6, 6, 0.3)" : "rgba(255, 6, 6, 0)"
+//               )
+//           )
+        (
           // .polygonsTransitionDuration(300)
           document.getElementById("globeViz")
         );
