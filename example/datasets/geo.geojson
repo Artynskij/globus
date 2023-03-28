@@ -1,0 +1,286 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "scalerank": 0,
+                "natscale": 600,
+                "labelrank": 2,
+                "featurecla": "Admin-0 capital",
+                "name": "Russia",
+                "namealt": null,
+                "diffascii": 0,
+                "adm0cap": 1,
+                "capalt": null,
+                "capin": null,
+                "worldcity": 1,
+                "megacity": 1,
+                "sov0name": "Russia",
+                "sov_a3": "RUS",
+                "adm0name": "Russia",
+                "adm0_a3": "RUS",
+                "adm1name": "Moskva",
+                "iso_a2": "RU",
+                "note": null,
+                "latitude": 55.7521641226,
+                "longitude": 37.6155228259,
+                "changed": 0,
+                "namediff": 0,
+                "diffnote": null,
+                "pop_max": 10452000,
+                "pop_min": 10452000,
+                "pop_other": 10585385,
+                "rank_max": 14,
+                "rank_min": 14,
+                "geonameid": 524901,
+                "meganame": "Russia",
+                "ls_name": "Russia",
+                "ls_match": 1,
+                "checkme": 0,
+                "min_zoom": 1.7,
+                "URl": "google.com"
+            },
+            "bbox": [
+                60,
+                100,
+                60,
+                100
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    60,
+                    100
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "scalerank": 0,
+                "natscale": 100,
+                "labelrank": 5,
+                "featurecla": "Admin-0 capital",
+                "name": "Abkhazia",
+                "namealt": null,
+                "diffascii": 0,
+                "adm0cap": 1,
+                "capalt": null,
+                "capin": null,
+                "worldcity": 5,
+                "megacity": 5,
+                "sov0name": "Abkhazia",
+                "sov_a3": "Abkhazia",
+                "adm0name": "Abkhazia",
+                "adm0_a3": "Abkhazia",
+                "adm1name": "Abkhazia",
+                "iso_a2": "Abkhazia",
+                "note": null,
+                "latitude": 40.931969,
+                "longitude": 40.931969,
+                "changed": 0,
+                "namediff": 0,
+                "diffnote": null,
+                "pop_max": 10452000,
+                "pop_min": 10452000,
+                "pop_other": 10585385,
+                "rank_max": 1,
+                "rank_min": 1,
+                "geonameid": 524901,
+                "meganame": "Abkhazia",
+                "ls_name": "Abkhazia",
+                "ls_match": 1,
+                "checkme": 0,
+                "min_zoom": 2,
+                "URl": "google.com"
+            },
+            "bbox": [
+                43.183976,
+                40.931969,
+                43.183976,
+                40.931969
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.183976,
+                    40.931969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "scalerank": 0,
+                "natscale": 600,
+                "labelrank": 3,
+                "featurecla": "Admin-0 capital",
+                "name": "Paris",
+                "namepar": null,
+                "namealt": null,
+                "diffascii": 0,
+                "nameascii": "Paris",
+                "adm0cap": 1,
+                "capalt": null,
+                "capin": null,
+                "worldcity": 1,
+                "megacity": 1,
+                "sov0name": "French Republic",
+                "sov_a3": "FRA",
+                "adm0name": "France",
+                "adm0_a3": "FRA",
+                "adm1name": "Île-de-France",
+                "iso_a2": "FR",
+                "note": null,
+                "latitude": 48.8666929312,
+                "longitude": 2.33333532574,
+                "changed": 0,
+                "namediff": 0,
+                "diffnote": null,
+                "pop_max": 9904000,
+                "pop_min": 11177,
+                "pop_other": 7142744,
+                "rank_max": 13,
+                "rank_min": 6,
+                "geonameid": 2988507,
+                "meganame": "Paris",
+                "ls_name": "Paris",
+                "ls_match": 1,
+                "checkme": 0,
+                "min_zoom": 1.7
+            },
+            "bbox": [
+                2.331389,
+                48.868639,
+                2.331389,
+                48.868639
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.331389,
+                    48.868639
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "scalerank": 0,
+                "natscale": 600,
+                "labelrank": 1,
+                "featurecla": "Admin-1 capital",
+                "name": "Kolkata",
+                "namepar": "Calcutta",
+                "namealt": null,
+                "diffascii": 0,
+                "nameascii": "Kolkata",
+                "adm0cap": 0,
+                "capalt": null,
+                "capin": null,
+                "worldcity": 0,
+                "megacity": 1,
+                "sov0name": "India",
+                "sov_a3": "IND",
+                "adm0name": "India",
+                "adm0_a3": "IND",
+                "adm1name": "West Bengal",
+                "iso_a2": "IN",
+                "note": null,
+                "latitude": 22.4949692983,
+                "longitude": 88.3246756581,
+                "changed": 4,
+                "namediff": 1,
+                "diffnote": "Name changed. Changed scale rank.",
+                "pop_max": 14787000,
+                "pop_min": 4631392,
+                "pop_other": 7783716,
+                "rank_max": 14,
+                "rank_min": 12,
+                "geonameid": 1275004,
+                "meganame": "Kolkata",
+                "ls_name": "Calcutta",
+                "ls_match": 1,
+                "checkme": 0,
+                "min_zoom": 3.7
+            },
+            "bbox": [
+                88.32273,
+                22.496915,
+                88.32273,
+                22.496915
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.32273,
+                    22.496915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "scalerank": 8,
+                "natscale": 10,
+                "labelrank": 3,
+                "featurecla": "Admin-0 capital",
+                "name": "Vatican City",
+                "namepar": null,
+                "namealt": null,
+                "diffascii": 0,
+                "nameascii": "Vatican City",
+                "adm0cap": 1,
+                "capalt": null,
+                "capin": null,
+                "worldcity": 1,
+                "megacity": 0,
+                "sov0name": "Vatican (Holy Sea)",
+                "sov_a3": "VAT",
+                "adm0name": "Vatican (Holy See)",
+                "adm0_a3": "VAT",
+                "adm1name": "Lazio",
+                "iso_a2": "VA",
+                "note": null,
+                "latitude": 41.9000122264,
+                "longitude": 12.4478083889,
+                "changed": 4,
+                "namediff": 0,
+                "diffnote": "Changed scale rank.",
+                "pop_max": 832,
+                "pop_min": 832,
+                "pop_other": 562430,
+                "rank_max": 2,
+                "rank_min": 2,
+                "geonameid": 6691831,
+                "meganame": null,
+                "ls_name": "Vatican City",
+                "ls_match": 1,
+                "checkme": 0,
+                "min_zoom": 7
+            },
+            "bbox": [
+                12.453387,
+                41.903282,
+                12.453387,
+                41.903282
+            ],
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.453387,
+                    41.903282
+                ]
+            }
+        }
+       
+ 
+    ],
+    "bbox": [
+        -175.220564477617,
+        -41.2999878536917,
+        179.216647094029,
+        64.1500236197392
+    ]
+}
